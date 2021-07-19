@@ -29,3 +29,12 @@ a {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+%btn {
+	padding: 12px 26px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: $accent;
+	box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+	cursor: pointer;
+}
