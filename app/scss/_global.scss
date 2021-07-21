@@ -29,3 +29,28 @@ a {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+%btn {
+	padding: 12px 26px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: $accent;
+	box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+	cursor: pointer;
+}
+
+.title {
+	text-align: center;
+	font-size: 48px;
+	@extend %roboto-700;
+	line-height: 65px;
+	color: $title;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.text {
+	text-align: center;
+	max-width: 570px;
+	margin: 0 auto 55px;
+}
